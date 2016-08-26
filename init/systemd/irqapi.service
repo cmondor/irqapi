@@ -1,0 +1,12 @@
+[Unit]
+Description=irqapi rest endpoint for capturing interrupt details and setting cpu affininty
+After=network.target
+ConditionPathExists=/usr/local/irqapi/venv
+
+[Service]
+ExecStart=/usr/local/irqapi/init/irqapi.sh
+KillMode=process
+Restart=always
+           
+[Install]
+WantedBy=default.target
