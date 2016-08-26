@@ -1,6 +1,6 @@
 # Interrupt Details and IRQ Tuning REST API
 
-A prototype library for retrieving interrupt details and for tuning irq channels by pinning them to a specific CPU.
+A prototype Python application for retrieving interrupt details and for tuning irq channels by pinning them to a specific CPU.
 
 ## Usage
 
@@ -42,6 +42,17 @@ TODO: see init folder
 
 - python 2.x
 - virtualenv
+
+## TODO
+
+- Comment code
+- Create client library
+- API Documentation
+- Publish wheel packaging
+- Fix sysv/systemd init
+- Create Tests
+- Add docker support
+- Add Python3 compatibility
 
 ## License
 
