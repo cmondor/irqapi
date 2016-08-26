@@ -4,7 +4,7 @@ A prototype library for retrieving interrupt details and for tuning irq channels
 
 ## Usage
 
-#. install and activate python virtual environment
+1. install and activate python virtual environment
 
 `sudo pip install virtualenv`
 
@@ -12,11 +12,11 @@ A prototype library for retrieving interrupt details and for tuning irq channels
 
 `. venv/bin/activate`
 
-#. install required packages
+2. install required packages
 
 `pip install -r requirements.txt`
 
-#. run server 
+3. run server 
 
 `python app.py`
 
@@ -40,8 +40,8 @@ TODO: see init folder
 
 ## Requires
 
-#. python 2.x
-#. virtualenv
+- python 2.x
+- virtualenv
 
 ## License
 
